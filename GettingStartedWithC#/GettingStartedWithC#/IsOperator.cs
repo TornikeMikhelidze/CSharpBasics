@@ -9,7 +9,8 @@ namespace GettingStartedWithC
         static void Main(string[] args)
         {
             bool result=123 is int; // true
-            Console.WriteLine(result);
+            bool result2="Hello" is string; // true
+            Console.WriteLine(result +"\n"+result2);
         }
     }
 }
